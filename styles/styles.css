@@ -209,7 +209,7 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 .about-container .right-about {
@@ -309,10 +309,13 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
   width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
